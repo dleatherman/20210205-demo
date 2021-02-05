@@ -1,0 +1,50 @@
+:root {
+   --primary-font-family: 'Public Sans', sans-serif;
+}
+
+html {
+   height: 100%;
+}
+
+body {
+   background: darkgoldenrod url('images/main.png') center center no-repeat;
+   /* ^ THIS DOES EVERYTHING THE NEXT 4 LINES SHOULD DO */
+   /* background-color: darkgoldenrod;
+   background-image: url('images/main.png');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain; */
+   font-size: 16px;
+   font-family: var(--primary-font-family);
+   font-weight: 300;
+   min-height: 100%;
+   padding: 2.25rem 1rem;
+}
+
+.container {
+   background-color: blueviolet;
+   margin: 0 auto 5rem;
+   padding: 2rem;
+}
+
+p {
+   font-weight: 300;
+}
+
+img {
+   display: inline-block;
+   height: auto;
+   max-width: 100%;
+}
+
+img:hover {
+   animation: tada;
+   animation-duration: 2s;
+}
+
+/* 
+.img-float-left {
+   float: left;
+   max-width: 50%;
+}
+*/
